@@ -2,3 +2,4 @@ Script that runs a C file through the preprocessor and save the result into anot
 Script that compiles C file(variable $CFILE) but does not link. Output should be named the same as CFILE but with extension .o instead of .c
 Script that generates the assembly code of a C code and save it in an output file. C file name saved in variable $CFILE, output file should be named the same as the C file
 Script that compiles a Cfile and creates an executable named cisfun. C file name saved in the variable $CFILE
+Write a program that prints ""Programming is like building a multilingual puzzle",Use fuction puts, printf is not allowed to use amd end with value 0
