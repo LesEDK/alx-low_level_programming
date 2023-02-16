@@ -5,3 +5,5 @@ Script that compiles a Cfile and creates an executable named cisfun. C file name
 Write a program that prints ""Programming is like building a multilingual puzzle",Use fuction puts, printf is not allowed to use amd end with value 0
 C program that prints exactly "with proper grammar, but the outcome is a piece of art," followed by a new line using the printf function, Return 0 and don't use puts fuction
 Cprogram that prints sizes of various types on the computer it is compiled adn run on. Produce exact same output as in the example, return 0 and warnings are allowed
+Script that generates the assembly code(Intel syntax) of a C code and save it in an output file. C file name saved in variable $CFILE, output file should be named the same as the C file
+
