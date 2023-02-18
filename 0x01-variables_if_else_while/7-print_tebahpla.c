@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Program that prints the lowercase in reverse
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 	while
 		(b >= 'a') {
 			putchar(b);
-			b++;
+			b--;
 		}
 	putchar('\n');
 	return (0);
