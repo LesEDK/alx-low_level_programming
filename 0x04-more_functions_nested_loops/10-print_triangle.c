@@ -16,4 +16,12 @@ else
 {
 for (j = 0; j < size; j++)
 {
-for 
+for (k = 0; k < size; k++)
+{
+_putchar(' ');
+}
+_putchar('#');
+_putchar('\n');
+}
+}
+}
