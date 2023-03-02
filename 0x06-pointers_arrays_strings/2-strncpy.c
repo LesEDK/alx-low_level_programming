@@ -9,15 +9,16 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int indx = 0;
+int index = 0, src_len = 0;
 
-while (src[indx++])
-strlen(src++);
+while (src[index++])
+src_len++;
 
-for (src[indx] = 0; src[indx] && indx < n; indx++)
-dest[indx] = strlen(src);
+for (index = 0; src[index] && index < n; index++)
+dest[index] = src[index];
 
-for (indx = strlen(src); indx < n; indx++)
-dest[indx] = '\0';
+for (index = src_len; index < n; index++)
+dest[index] = '\0';
+
 return (dest);
 }
