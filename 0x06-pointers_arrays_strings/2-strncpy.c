@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strncpy - Function that copies a string
  * @dest: The buffer storing the string copy
@@ -8,16 +9,15 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int indx = 0, src_len = 0;
+int indx = 0;
 
 while (src[indx++])
-src_len++;
+strlen(src++);
 
 for (src[indx] = 0; src[indx] && indx < n; indx++)
-dest[indx] = src[indx];
+dest[indx] = strlen(src);
 
-for (indx = src_len; indx < n; indx++)
+for (indx = strlen(src); indx < n; indx++)
 dest[indx] = '\0';
-
 return (dest);
 }
