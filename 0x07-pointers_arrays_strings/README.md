@@ -9,3 +9,8 @@ The _memset() function fills the first n bytes of the memory area pointed to by 
 Function that copies memory area.
 Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
 The _memcpy() function copies n bytes from memory area src to memory area dest. Returns a pointer to dest
+
+2-strchr.c
+Function that locates a character in a string.
+Prototype: char *_strchr(char *s, char c);
+Returns a pointer to the first occurrence of the character c in the string s, or NULL if the characteris not found
