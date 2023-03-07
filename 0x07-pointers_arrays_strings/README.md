@@ -33,3 +33,10 @@ The _strstr() function finds the first occurrence of the substring needle in the
 
 7-print_chessboard.c
 Function that prints the chessboard.
+
+8-print_diagsums.c
+function that prints the sum of the two diagonals of a square matrix of integers.
+Prototype: void print_diagsums(int *a, int size);
+Format: see example
+You are allowed to use the standard library
+Note that in the following example we are casting an int[][] into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
