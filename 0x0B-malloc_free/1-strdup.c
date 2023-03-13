@@ -25,5 +25,6 @@ for (i = 0; str[i]; i++)
 new_str[i] = str[i];
 
 new_str[len] = '\0';
+
 return (new_str);
 }
